@@ -4257,7 +4257,7 @@
             "Sports"
         ],
         "logo_url": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Star Sports 1 Hindi HD.png",
-        "manifest_url": "http://livetvbox.live:8080/live/377000/377000/124287.ts",
+        "manifest_url": "https://tgaadi-web.tech/api/spice.php?tv=650",
         "license_url": null,
         "manifest_headers": null,
         "manifest_type": "MPEG-DASH|DASH|MPD",
