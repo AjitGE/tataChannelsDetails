@@ -10,7 +10,7 @@ allchannels=savedChannels
 
 for channelList in allchannels:
         m3ustr += "#EXTINF:-1 "
-        m3ustr += "tvg-id="+ "\"" + str(channelList['channel_id']) + "\" " + "group-title=" + "\"" + channelList['channelCategoryId'] + "\" " "tvg-logo=\""+str(channelList['logoUrl']) + "\"," + channelList['channel_name'] + "\n"+ url.replace("$ToReplace",'_'.join(channelList['channel_name'].split(" ")))+"\n\n"
+        m3ustr += "tvg-id="+ "\"" + str(channelList['channel_id']) + "\" " + "group-title=" + "\"" + channelList['channelCategoryId'] + "\" " "tvg-logo=\""+str(channelList['logoUrl']) + "\"," + channelList['channel_name'] + "\n"+ url.replace("$ToReplace",'_'.join(channelList['channel_name'].split(" "))+'_MOB')+"\n\n"
 
 
 with open("allChannelPlaylist.m3u", "w") as allChannelPlaylistFile:
