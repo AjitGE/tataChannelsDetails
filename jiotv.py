@@ -2,9 +2,8 @@ import requests;
 import json;
 
 global allChannels
-url= "https://fifabangladesh.live/@RANAPKX73/stream.m3u8?id=$ToReplace&e-.m3u8"
+url= "https://jiotv69.nayeem-parvez.workers.dev/bpk-tv/$ToReplace/Fallback/index.m3u8"
 m3ustr = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mitthu786/tvepg/main/jiotv/epg.xml.gz"\n\n'
-
 with open("jiodata.json", "r") as savedChannelDetailInFile:
     savedChannels = json.load(savedChannelDetailInFile)
 allchannels=savedChannels
@@ -12,7 +11,7 @@ allchannels=savedChannels
 for channelList in allchannels:
         channelUrlId=channelList['logoUrl'].split('https://jiotv.catchup.cdn.jio.com/dare_images/images/')[1].replace('.png','')
         m3ustr += "#EXTINF:-1 "
-        m3ustr += "tvg-id="+ "\"" + str(channelList['channel_id']) + "\" " + "group-title=" + "\"" + channelList['channelCategoryId'] + "\" " "tvg-logo=\""+str(channelList['logoUrl']) + "\"," + channelList['channel_name'] + "\n"+ url.replace("$ToReplace",str(channelList['channel_id']))+"\n\n"
+        m3ustr += "tvg-id="+ "\"" + str(channelList['channel_id']) + "\" " + "group-title=" + "\"" + channelList['channelCategoryId'] + "\" " "tvg-logo=\""+str(channelList['logoUrl']) + "\"," + channelList['channel_name'] + "\n"+ url.replace("$ToReplace",channelUrlId+'_MOB')+"\n\n"
 
 
 with open("allChannelPlaylist.m3u", "w") as allChannelPlaylistFile:
