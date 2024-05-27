@@ -12,7 +12,7 @@ allchannels=savedChannels
 for channelList in allchannels:
         channelUrlId=channelList['logoUrl'].split('https://jiotv.catchup.cdn.jio.com/dare_images/images/')[1].replace('.png','')
         m3ustr += "#EXTINF:-1 "
-        m3ustr += "tvg-id="+ "\"" + str(channelList['channel_id']) + "\" " + "group-title=" + "\"" + channelList['channelCategoryId'] + "\" " "tvg-logo=\""+str(channelList['logoUrl']) + "\"," + channelList['channel_name'] + "\n"+ url.replace("$ToReplace",channelList['channel_id'])+"\n\n"
+        m3ustr += "tvg-id="+ "\"" + str(channelList['channel_id']) + "\" " + "group-title=" + "\"" + channelList['channelCategoryId'] + "\" " "tvg-logo=\""+str(channelList['logoUrl']) + "\"," + channelList['channel_name'] + "\n"+ url.replace("$ToReplace",str(channelList['channel_id']))+"\n\n"
 
 
 with open("allChannelPlaylist.m3u", "w") as allChannelPlaylistFile:
