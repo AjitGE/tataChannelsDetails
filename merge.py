@@ -18,9 +18,6 @@ channel_list = x.json()['data']['channels']
 
 for channel in channel_list:
   if channel['id'] in result:
-     if channel['id'] == "24":
-        channel['manifest_url'] = "http://103.131.214.129:9985/stream/channelid/1974957513?ticket=C815D2D23BA56315B74A9234A551E2EABFC1AC91&profile=pass"
-  if channel['id'] in result:
     channel['logo_url']=result[channel['id']]['channel_logo']
     channel["genres"] = [result[channel['id']]['channel_genre']]
 
