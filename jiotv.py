@@ -3,7 +3,7 @@ import json;
 
 global allChannels
 url= "https://jtv69.nayeem-parvez.workers.dev/bpk-tv/$ToReplace/Fallback/index.m3u8"
-m3ustr = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mitthu786/tvepg/main/jiotv/epg.xml.gz"\n\n'
+m3ustr = ''
 with open("jiodata.json", "r") as savedChannelDetailInFile:
     savedChannels = json.load(savedChannelDetailInFile)
 allchannels=savedChannels
