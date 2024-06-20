@@ -12,17 +12,17 @@ x = requests.get(url)
 channel_list = x.json()['data']['channels']
 
 result = dict()
-for channel in channel_list:
-    result[channel['id']] = channel
+for channel in allchannelsnew:
+    result[channel['channel_id']] = channel
 
-for channelnew in allchannelsnew:
-  if channelnew['channel_id'] in result:
-        channelnew['channel_license_url']=result[channelnew['channel_id']]['license_url']
-        channelnew['channel_url'] = result[channelnew['channel_id']]['manifest_url']
+for channelnew in channel_list:
+  if channelnew['id'] in result:
+        channelnew['channel_license_url']=result[channelnew['id']]['license_url']
+        channelnew['channel_url'] = result[channelnew['id']]['manifest_url']
   else :
-     print(channelnew['channel_id'])
+     print(channelnew['id'])
 
-with open("allChannels.json", "w") as channel_list_file:
+with open("allChannelsCheck.json", "w") as channel_list_file:
         json.dump(allchannelsnew, channel_list_file)
         channel_list_file.close()
 

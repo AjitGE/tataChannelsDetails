@@ -15526,6 +15526,15 @@
     "channel_genre": "Regional Punjabi"
   },
   {
+    "channel_id": "925",
+    "channel_name": "Broadpeak Channel",
+    "channel_license_url": "",
+    "channel_url": "https://bplab1.akamaized.net/bpk-tv/irdeto_com_Channel_8001/output/manifest.mpd",
+    "channel_entitlements": ["1000000001"],
+    "channel_logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-63853-kr3ymors-v3/imageContent-63853-kr3ymors-m3.png",
+    "channel_genre": "News"
+  },
+  {
     "channel_id": "796",
     "channel_name": "Zee Punjabi",
     "channel_license_url": "",
