@@ -1,34 +1,5 @@
 [
   {
-    "channel_id": "22",
-    "channel_name": "News World India",
-    "channel_license_url": "",
-    "channel_url": "",
-    "channel_entitlements": [
-      "1000000753",
-      "1000001274",
-      "1000000042",
-      "1000000706",
-      "1000000051",
-      "1000001023",
-      "1000000938",
-      "1000001070",
-      "1000000077",
-      "1000000352",
-      "1000000041",
-      "1000000351",
-      "1000000001",
-      "1000000350",
-      "1000000718",
-      "1000001035",
-      "1000000201",
-      "1000000405",
-      "1000001368"
-    ],
-    "channel_logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-52679-k7zx7qqg-v1/imageContent-52679-k7zx7qqg-m2.png",
-    "channel_genre": "Lifestyle"
-  },
-  {
     "channel_id": "840",
     "channel_name": "Shirdi Sai Baba",
     "channel_license_url": "",
@@ -17396,5 +17367,34 @@
     "channel_entitlements": ["1000001035", "1000001038", "1000001274"],
     "channel_logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/jeewan-bhakti_2000_X_1125_Transpharent.png",
     "channel_genre": "Spiritual"
+  },
+  {
+    "channel_id": "22",
+    "channel_name": "News World India",
+    "channel_license_url": "",
+    "channel_url": "",
+    "channel_entitlements": [
+      "1000000753",
+      "1000001274",
+      "1000000042",
+      "1000000706",
+      "1000000051",
+      "1000001023",
+      "1000000938",
+      "1000001070",
+      "1000000077",
+      "1000000352",
+      "1000000041",
+      "1000000351",
+      "1000000001",
+      "1000000350",
+      "1000000718",
+      "1000001035",
+      "1000000201",
+      "1000000405",
+      "1000001368"
+    ],
+    "channel_logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-52679-k7zx7qqg-v1/imageContent-52679-k7zx7qqg-m2.png",
+    "channel_genre": "Lifestyle"
   }
 ]
