@@ -1296,7 +1296,7 @@
     "id": "727",
     "title": "Zee Classic",
     "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Zee Classic.png",
-    "initialUrl": "https://otttv.co.in/dishtv/playlist.m3u8?id=zee-bollywood&vtoken=&e=.m3u8?|referer=https://otttv.co.in/",
+    "initialUrl": "https://otttv.co.in/dishtv/playlist.m3u8?id=zee-classic&vtoken=&e=.m3u8?|referer=https://otttv.co.in/",
     "genre": "Movies",
     "psshSet": "AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEFT5LnUYrl9GpQNV84GjgJY4iLHDtQY=",
     "kid": "54f92e75-18ae-5f46-a503-55f381a38096:5ae2d6a8276e8b8cf1e3da928caaf68e",
