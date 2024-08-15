@@ -3224,7 +3224,7 @@
     "title": "Jantantra TV",
     "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/JTV-Transparent.png",
     "initialUrl": "https://bpwta1.akamaized.net/bpk-tv/irdeto_com_Channel_941/output/toxicify.mpd",
-    "genre": News",
+    "genre": "News",
     "psshSet": "AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEFse5O6Gg1xygHdnljihs2c4jLjDtQY=",
     "kid": "5b1ee4ee-8683-5c72-8077-679638a1b367:f30ef3f4a04c2a4ddaf03dac9fdc3c75",
     "hex": "5b1ee4ee86835c728077679638a1b367:f30ef3f4a04c2a4ddaf03dac9fdc3c75",
