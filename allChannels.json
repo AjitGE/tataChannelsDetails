@@ -3532,7 +3532,7 @@
     "title": "NewsX",
     "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Newsx-Transparent.png",
     "initialUrl": "https://bpwta6.akamaized.net/bpk-tv/irdeto_com_Channel_152/output/toxicify.mpd",
-    "genre": "English News",
+    "genre": "News",
     "psshSet": "AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEJuLW+rAxVQEiiK+MXcNfxw4yIvDtQY=",
     "kid": "9b8b5bea-c0c5-5404-8a22-be31770d7f1c:351c501ab91a9b93241d637c20eb9cb2",
     "hex": "9b8b5beac0c554048a22be31770d7f1c:351c501ab91a9b93241d637c20eb9cb2",
