@@ -2462,7 +2462,7 @@
     "id": "179",
     "title": "NDTV India",
     "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/NDTV India.png",
-    "initialUrl": "https://jmp2.uk/SamsungTVPlus/INBC2800002WJ.m3u8",
+    "initialUrl": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/master.m3u8",
     "genre": "News",
     "psshSet": "AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSED5sUzwJJVDzohvk4AfNITY4tLPDtQY=",
     "kid": "3e6c533c-0925-50f3-a21b-e4e007cd2136:94f10cc090b0bf9570c005280c191949",
