@@ -2616,7 +2616,7 @@
     "id": "209",
     "title": "News 24",
     "logo": "https://1.bp.blogspot.com/-JJanSjnJmLQ/XsI3_y0fo7I/AAAAAAAAGvQ/V_BT8yRMvMoZUYCKErK6CVb0EU3dSn80ACLcBGAsYHQ/s200/News24_Logo.png",
-    "initialUrl": "https://bb4ece8d78fb4e85b0713ee8a3f73e7b.mediatailor.ap-south-1.amazonaws.com/v1/master/8c46099fe45335f63ce7178b3eb4f427ab1d2158/news24-prod-pal/playlist.m3u8",
+    "initialUrl": "https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8",
     "genre": "News",
     "psshSet": "AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEJy9w/3BgVs4qbXHtO6Xews48IbDtQY=",
     "kid": "9cbdc3fd-c181-5b38-a9b5-c7b4ee977b0b:6458b1a184f6d57196b6faa58ba3ce41",
